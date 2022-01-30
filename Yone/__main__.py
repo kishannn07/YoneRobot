@@ -96,7 +96,7 @@ Add me in your groups and give me full rights to make me function well.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url="t.me/Yone_Robot?startgroup=true"),
+            text="➕️ Add me to your chat ➕️", url="t.me/arc_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Admin", callback_data="admin_back"),
@@ -208,8 +208,8 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="t.me/Yone_Support"),
-                     InlineKeyboardButton(text="News", url="t.me/Yone_Updates"),
+                     InlineKeyboardButton(text="Support", url="t.me/the_arc_music"),
+                     InlineKeyboardButton(text="News", url="t.me/the_arc_network"),
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
